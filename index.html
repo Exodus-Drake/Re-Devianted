@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<style>
+
+div.fixed {
+  position: fixed;
+/*  bottom: 0;
+  right: 0;
+
+  width: 300px;
+  border: 3px solid #73AD21;*/
+}
+body {
+  background-color: #CCD9C8;
+}
+p.position {
+  padding-top: 15px;
+  /* position: absolute;
+  left: 100px;
+  top: 150px;*/
+}
+.flexbox-container {
+    display: flex;
+}
+#headspace {padding-top: 200px;}
+
+.flexbox-item {
+  width: 200px;
+  margin: 15px;
+  /*border: 3px solid #333;*/
+  background-color: #CCD9C8;
+  flex-grow: 1;
+}
+
+#borderimg {
+  min-height: 60px;
+  padding: 15px;
+  background-color: #D6E0D2;
+  border: 20px solid transparent;
+  border-image: url(assets/graphics/border-img-001.png) 40 stretch;
+  border-image-slice: 40px fill;
+  border-image-width: 40px 40px;
+  border-radius: 12px 12px 12px 12px;
+  border-collapse: separate;
+  border-spacing: 15px 50px;
+}
+/*---------------------------------------------------------------------------*/
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  align-items: baseline;
+  background-color: #D6E0D2;
+  /*gap: 10px;*/
+  /*background-color: #2196F3;*/
+  /*padding: 10px;*/
+}
+
+.grid-container > div {
+  /*background-color: #D6E0D2;*/
+
+  text-align: center;
+  line-height: 0.4;
+  padding: 20px 0;
+  font-size: 15px;
+}
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+/*---------------------------------------------------------------------------*/
+/*Left column*/
+.flexbox-item-1 {
+}
+/*right column*/
+.flexbox-item-2 {}
+
+.flexbox-item-3 {
+
+
+}
+
+</style>
+<!--=========================================================================-->
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Re:Deviated Art</title>
+    <meta name="author" content="Edael">
+    <meta name="description" content="Reclaiming, reborn, remembered, to Deviate from modernity and return to a time when artist could be truely happy">
+    <meta name="keywords" content="art site, art">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+<!--=========================================================================-->
+
+  <body>
+    <div class="fixed">
+      We all know, Header is Bester
+    </div>
+
+<!--Main columns -->
+    <div id="headspace" class="flexbox-container">
+<!----------------------------------------------------------------------------->
+      <!--Left column -->
+      <!--item 1 -->
+        <div class="flexbox-item flexbox-item-1">
+          <div id="borderimg">
+            <p class="position">This is a fax machine
+              This is a fax machine This is a fax machine This is a fax machine
+              This is a fax machine This is a fax machine This is a fax machine
+              This is a fax machine This is a fax machine This is a fax machine
+              This is a fax machine This is a fax machine This is a fax machine
+              This is a fax machine This is a fax machine This is a fax machine
+              This is a fax machine This is a fax machine This is a fax machine
+              This is a fax machine This is a fax machine This is a fax machine
+            </p>
+          </div>
+        <div style="padding: 15px;"></div>
+      <!--item 2 -->
+        <div style="position: absolute; top: 480px; left: 64px; width: 40px; height: 24px; background: url(assets/spritesheet/img_navsprite.gif) -24px 0;">Featured</div>
+          <div class="flexbox-container" id="borderimg">
+
+            <div class="flexbox-item flexbox-item-">
+              <div>
+                <div class="grid-container">
+
+                  <div class="item1">
+                    <img src="assets/gallery/flipnote.png" alt="test" style="max-width:128px;max-height:128px;box-shadow: 5px 5px 4px #617566;">
+                    <p style="color: #498091; font-weight: bold;"><a href="https://twitter.com/home">Flipnote</a></p>
+                    <p style="font-size: 12px">by <a href="https://twitter.com/home">Edael-Arts</a></p>
+                  </div>
+
+                  <div class="item2">
+                    <img src="assets/gallery/pfp2.png" alt="test" style="max-width:128px;max-height:128px;box-shadow: 5px 5px 4px #617566;">
+                    <p style="color: #498091; font-weight: bold;"><a href="https://www.deviantart.com/">Flippant Hysteria</a></p>
+                    <p style="font-size: 12px">by <a href="https://twitter.com/home">Edael-Arts</a></p>
+                  </div>
+
+                  <div class="item3">
+                    <img src="assets/gallery/Pikiko2.png" alt="test" style="max-width:128px;max-height:128px;">
+                    <p>lorem ipsum</p>
+                  </div>
+
+                  <div class="item4">
+                    <img src="assets/gallery/pwl.png" alt="test" style="max-width:128px;max-height:128px;">
+                    <p>lorem ipsum</p>
+                  </div>
+
+                  <div class="item5">
+                    <img src="assets/gallery/flipnote.png" alt="test" style="max-width:128px;max-height:128px;">
+                    <p>lorem ipsum</p>
+                  </div>
+
+                  <div class="item6">
+                    <img src="assets/gallery/flipnote.png" alt="test" style="max-width:128px;max-height:128px;">
+                    <p>lorem ipsum</p>
+                  </div>
+
+                  <div class="item7">
+                    <img src="assets/gallery/flipnote.png" alt="test" style="max-width:128px;max-height:128px;">
+                    <p>lorem ipsum</p>
+                  </div>
+
+                  <div class="item8">
+                    <img src="assets/gallery/flipnote.png" alt="test" style="max-width:128px;max-height:128px;">
+                    <p>lorem ipsum</p>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div><!--Left end -->
+<!----------------------------------------------------------------------------->
+      <!--Right column -->
+        <div class="flexbox-item flexbox-item-2">
+          <p id="borderimg">It's startin to bore me how much
+          you suck
+
+          </p>
+
+          <div>Its time to die, chris! CHRAAAAASSSSSSSSS</div>
+        </div><!--Right end -->
+
+    </div>
+  </body>
+</html>
